@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  border: 2px solid black;
+  width: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(128, 128, 128, 0.253);
+  height: 100px;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+.logo {
+  margin-right: 7rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  width: 55%;
+  margin-top: 4rem;
+}
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.main__text {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.input {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  border: none;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.adress {
+  width: 70%;
+  font-size: 1.2rem;
+  border: none;
+outline: none;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  height: 40px;
+  padding-left: 15px;
+  border-bottom: 2px solid black;
+}
+
+.postcode {
+  width: 25%;
+  font-size: 1.2rem;
+  border: none;
+outline: none;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  height: 40px;
+  padding-left: 15px;
+  border-bottom: 2px solid black;
+}
+.add {
+  display: flex;
+  gap: 30px;
+  
+}
+.btn {
+  width: 100%;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.label {
+  font-size: 20px;
+  grid-ga
+}
